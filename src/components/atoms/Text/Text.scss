@@ -1,1 +1,32 @@
-@import "../../../styles/main.scss";
+@import "../../styles/main.scss";
+
+.regular-text {
+  font-size: $font-200;
+  color: $primary-black;
+}
+
+.white-heading-text {
+  font-size: $font-200;
+  color: $white;
+  font-weight: bold;
+}
+
+.link-text {
+  font-size: $font-200;
+  color: $orange;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: $font-100;
+  color: $grey;
+}
+
+.inline-text {
+  display: inline;
+}
+
+.sub-text-dark-text {
+  font-size: $font-100;
+  color: $primary-black;
+}

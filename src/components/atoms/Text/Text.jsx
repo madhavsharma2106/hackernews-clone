@@ -4,16 +4,29 @@ import classNames from "classnames";
 import "./Text.scss";
 
 export const TextVariant = {
-  regular: "regular-text",
-  subText: "sub-text",
-  link: "link-text",
+  regular: "regular",
+  subText: "sub",
+  link: "link",
+  whiteHeading: "white-heading",
+  subTextDark: "sub-text-dark",
 };
 
-function Text({ variant = TextVariant.regular, children, style }) {
-  const classes = classNames([`text-${variant}`]);
+function Text({
+  variant = TextVariant.regular,
+  clickable = false,
+  children,
+  style,
+  inline = false,
+  onClick,
+}) {
+  const classes = classNames([
+    `${variant}-text`,
+    clickable && `pointer`,
+    inline && `inline-text`,
+  ]);
 
   return (
-    <p style={style} className={classes}>
+    <p style={style} className={classes} onClick={onClick}>
       {children}
     </p>
   );
