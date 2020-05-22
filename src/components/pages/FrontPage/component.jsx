@@ -2,85 +2,48 @@ import React, { useState, useEffect } from "react";
 import Text, { TextVariant } from "../../atoms/Text/Text";
 
 import "./FrontPage.scss";
-import moment from "moment";
 import Paginator from "../../molecule/Paginator/Paginator";
+import NewsRow from "../../molecule/NewsRow/NewsRow";
 
 function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
   const [tableInfo, setTableInfo] = useState({});
-  useEffect(() => {}, [tableInfo]);
+  useEffect(() => {
+    window.localStorage.setItem("tableInfo", tableInfo);
+  }, [tableInfo]);
 
   const hideRow = (id) => {
-    setTableInfo({ ...tableInfo, id: true });
+    const update = (tableInfo[id] = { hidden: true });
+    setTableInfo({ ...tableInfo, ...update });
   };
 
-  const calculateTimeLapsed = (time) => {
-    return moment().diff(time, "hours");
-  };
-
-  const extractHostName = (url) => {
-    // Taken from : https://stackoverflow.com/questions/8498592/extract-hostname-name-from-string
-    let hostname;
-    if (url.indexOf("//") > -1) {
-      hostname = url.split("/")[2];
+  const addVote = (id) => {
+    if (tableInfo[id]) {
+      const update = (tableInfo[id] = { votes: tableInfo[id].votes + 1 });
+      setTableInfo({ ...tableInfo, ...update });
     } else {
-      hostname = url.split("/")[0];
+      const update = (tableInfo[id] = { votes: 1 });
+      setTableInfo({ ...tableInfo, ...update });
     }
-    hostname = hostname.split(":")[0];
-    hostname = hostname.split("?")[0];
-
-    return `(${hostname})`;
   };
 
   const renderTableBody = () => {
     console.log(tableData);
-    return tableData?.map((row) => (
-      <tr key={row.created_at_i} hidden={tableInfo[row.created_at_i]?.hidden}>
-        <td>
-          <Text variant={TextVariant.regular}>{row.num_comments}</Text>
-        </td>
+    return tableData?.map((row) => {
+      const id = row.created_at_i;
 
-        <td>
-          <Text variant={TextVariant.regular}>96</Text>
-        </td>
-        <td>
-          <Text variant={TextVariant.regular} clickable>
-            &#8679;
-          </Text>
-        </td>
-        <td className="news-details">
-          <Text variant={TextVariant.regular} inline>
-            {row.title}
-          </Text>
-          <Text
-            variant={TextVariant.subText}
-            inline
-            clickable
-            onClick={() => {
-              window.open(row.url, "_blank");
-            }}
-          >
-            {row.url && extractHostName(row.url)}
-          </Text>
-          <Text variant={TextVariant.subText} inline>
-            by
-          </Text>
-          <Text variant={TextVariant.subTextDark} inline>
-            {row.author}
-          </Text>
-          <Text variant={TextVariant.subText} inline>
-            {`${calculateTimeLapsed(row.created_at)} hours ago`}
-          </Text>
-          <Text
-            variant={TextVariant.subTextDark}
-            inline
-            clickable
-            onClick={() => hideRow(row.created_at_i)}
-          >
-            hide
-          </Text>
-        </td>
-      </tr>
-    ));
+      return (
+        !tableInfo[id]?.hidden && (
+          <NewsRow
+            key={id}
+            id={id}
+            votes={tableInfo[id]?.votes}
+            row={row}
+            addVote={addVote}
+            hideRow={hideRow}
+          />
+        )
+      );
+    });
   };
 
   return (
