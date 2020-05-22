@@ -17,6 +17,10 @@ function FrontPage(props) {
         console.error(err);
         setData("falied");
       });
+
+    props.history.push({
+      pathname: `/${page}`,
+    });
   };
 
   const nextPage = () => {
