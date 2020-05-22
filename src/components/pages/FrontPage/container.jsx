@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { withRouter } from "react-router-dom";
 import FrontPageComponent from "./component";
 
-function FrontPage() {
+function FrontPage(props) {
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetchData();
+    fetchData(props.match.params.id);
   }, []);
 
   const fetchData = async (page = 0) => {
@@ -35,4 +36,4 @@ function FrontPage() {
   );
 }
 
-export default FrontPage;
+export default withRouter(FrontPage);

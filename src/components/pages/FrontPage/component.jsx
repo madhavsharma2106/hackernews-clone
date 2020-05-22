@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Text, { TextVariant } from "../../atoms/Text/Text";
 
 import "./FrontPage.scss";
@@ -6,6 +6,13 @@ import moment from "moment";
 import Paginator from "../../molecule/Paginator/Paginator";
 
 function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
+  const [tableInfo, setTableInfo] = useState({});
+  useEffect(() => {}, [tableInfo]);
+
+  const hideRow = (id) => {
+    setTableInfo({ ...tableInfo, id: true });
+  };
+
   const calculateTimeLapsed = (time) => {
     return moment().diff(time, "hours");
   };
@@ -27,7 +34,7 @@ function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
   const renderTableBody = () => {
     console.log(tableData);
     return tableData?.map((row) => (
-      <tr key={row.created_at_i}>
+      <tr key={row.created_at_i} hidden={tableInfo[row.created_at_i]?.hidden}>
         <td>
           <Text variant={TextVariant.regular}>{row.num_comments}</Text>
         </td>
@@ -63,7 +70,12 @@ function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
           <Text variant={TextVariant.subText} inline>
             {`${calculateTimeLapsed(row.created_at)} hours ago`}
           </Text>
-          <Text variant={TextVariant.subTextDark} inline clickable>
+          <Text
+            variant={TextVariant.subTextDark}
+            inline
+            clickable
+            onClick={() => hideRow(row.created_at_i)}
+          >
             hide
           </Text>
         </td>
