@@ -10,26 +10,4 @@ table {
     background-color: $orange;
     text-align: left;
   }
-
-  tbody {
-    tr {
-      background: $primary-brown;
-    }
-    tr:nth-child(even) {
-      background: $secondary-brown;
-    }
-  }
-}
-
-.pagination {
-  display: flex;
-  background-color: $secondary-brown;
-  justify-content: flex-end;
-  padding: 0 10px;
-}
-
-.news-details {
-  p {
-    margin: auto 2px;
-  }
 }

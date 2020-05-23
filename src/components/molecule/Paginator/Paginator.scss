@@ -1,0 +1,8 @@
+@import "../../styles/main.scss";
+
+.pagination {
+  display: flex;
+  background-color: $secondary-brown;
+  justify-content: flex-end;
+  padding: 0 10px;
+}

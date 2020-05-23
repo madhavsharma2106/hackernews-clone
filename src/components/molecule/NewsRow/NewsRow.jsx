@@ -1,6 +1,7 @@
 import React from "react";
 import Text, { TextVariant } from "../../atoms/Text/Text";
 import { calculateTimeLapsed, extractHostNameFromUrl } from "../../../utils";
+import "./NewsRow.scss";
 
 function NewsRow({ id, votes, row, addVote, hideRow }) {
   return (

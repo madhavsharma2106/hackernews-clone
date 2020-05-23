@@ -1,5 +1,6 @@
 import React from "react";
 import Text, { TextVariant } from "../../atoms/Text/Text";
+import "./Paginator.scss";
 
 function Paginator({ pageInfo, previousPage, nextPage }) {
   return (
