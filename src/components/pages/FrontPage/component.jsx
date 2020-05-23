@@ -4,12 +4,22 @@ import Text, { TextVariant } from "../../atoms/Text/Text";
 import "./FrontPage.scss";
 import Paginator from "../../molecule/Paginator/Paginator";
 import NewsRow from "../../molecule/NewsRow/NewsRow";
+import Chart from "../../organism/Chart/Chart";
 
 function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
   const [tableInfo, setTableInfo] = useState({});
   useEffect(() => {
     window.localStorage.setItem("tableInfo", tableInfo);
+    console.log(tableInfo);
   }, [tableInfo]);
+
+  const prepDataForChart = (tableInfo) => {
+    let finalData = [];
+    for (let row in tableInfo) {
+      finalData.push({ id: row, votes: tableInfo[row].votes });
+    }
+    return finalData;
+  };
 
   const hideRow = (id) => {
     const update = (tableInfo[id] = { hidden: true });
@@ -29,7 +39,7 @@ function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
   const renderTableBody = () => {
     console.log(tableData);
     return tableData?.map((row) => {
-      const id = row.created_at_i;
+      const id = row.objectID;
 
       return (
         !tableInfo[id]?.hidden && (
@@ -72,6 +82,8 @@ function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
         previousPage={previousPage}
         nextPage={nextPage}
       />
+
+      <Chart data={prepDataForChart(tableInfo)} />
     </>
   );
 }
