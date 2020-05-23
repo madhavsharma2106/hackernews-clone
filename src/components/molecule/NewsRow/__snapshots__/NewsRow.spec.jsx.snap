@@ -58,7 +58,7 @@ exports[`News Row Component should render row without errors 1`] = `
       inline={true}
       variant="sub"
     >
-      9 hours ago
+      10 hours ago
     </Text>
     <Text
       clickable={true}
