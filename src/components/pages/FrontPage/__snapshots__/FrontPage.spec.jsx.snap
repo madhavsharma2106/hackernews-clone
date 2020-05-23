@@ -1,0 +1,1015 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Front Page Component should render component without errors 1`] = `
+<Fragment>
+  <table>
+    <thead>
+      <tr>
+        <th
+          className="fixed"
+        >
+          <Text
+            variant="white-heading"
+          >
+            Comments
+          </Text>
+        </th>
+        <th
+          className="fixed"
+        >
+          <Text
+            variant="white-heading"
+          >
+            Vote Count
+          </Text>
+        </th>
+        <th
+          className="fixed"
+        >
+          <Text
+            variant="white-heading"
+          >
+            UpVote
+          </Text>
+        </th>
+        <th>
+          <Text
+            variant="white-heading"
+          >
+            News Details
+          </Text>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23273247"
+        key="23273247"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "jrk",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "MacOS Catalina: Slow by Design?",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_jrk",
+              "story_23273247",
+              "front_page",
+            ],
+            "author": "jrk",
+            "comment_text": null,
+            "created_at": "2020-05-22T15:39:07.000Z",
+            "created_at_i": 1590161947,
+            "num_comments": 909,
+            "objectID": "23273247",
+            "parent_id": null,
+            "points": 1824,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "MacOS Catalina: Slow by Design?",
+            "url": "https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23279837"
+        key="23279837"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "winston_smith",
+              },
+              "story_text": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Fortunately this email made it through my spam filter. Looks like they want to take on LinkedIn and are planning to seed it by making existing accounts public unless you opt OUT within the next week:<p>Hey [redacted],<p>I’m excited to announce that we are expanding the reach of your Triplebyte profile. Now, you can use your Triplebyte credentials on and off the platform. Just like LinkedIn, your profile will be publicly accessible with a dedicated URL that you can share anywhere (job applications, LinkedIn, GitHub, etc). When you do well on a Triplebyte assessment, your profile will showcase that achievement (we won’t show your scores publicly). Unlike LinkedIn, we aim to become your digital engineering skills resume — a credential based on actual skills, not pedigree.<p>The new profiles will be launching publicly in 1 week. This is a great opportunity to update your profile with your latest experience and preferences. You can edit your profile privacy settings to not appear in public search engines at any time.<p>Our mission is to build an open, valuable, and skills-based credential for all engineers. We believe that allowing Triplebyte engineers to publicly share their profiles and skills-based credentials will accelerate this mission.<p>Thanks,<p>Ammon
+Co-founder &amp; CEO, Triplebyte",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Tell HN: Interviewed with Triplebyte? Your profile is about to become public",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_winston_smith",
+              "story_23279837",
+              "front_page",
+            ],
+            "author": "winston_smith",
+            "comment_text": null,
+            "created_at": "2020-05-23T04:10:57.000Z",
+            "created_at_i": 1590207057,
+            "num_comments": 378,
+            "objectID": "23279837",
+            "parent_id": null,
+            "points": 894,
+            "story_id": null,
+            "story_text": "Fortunately this email made it through my spam filter. Looks like they want to take on LinkedIn and are planning to seed it by making existing accounts public unless you opt OUT within the next week:<p>Hey [redacted],<p>I’m excited to announce that we are expanding the reach of your Triplebyte profile. Now, you can use your Triplebyte credentials on and off the platform. Just like LinkedIn, your profile will be publicly accessible with a dedicated URL that you can share anywhere (job applications, LinkedIn, GitHub, etc). When you do well on a Triplebyte assessment, your profile will showcase that achievement (we won’t show your scores publicly). Unlike LinkedIn, we aim to become your digital engineering skills resume — a credential based on actual skills, not pedigree.<p>The new profiles will be launching publicly in 1 week. This is a great opportunity to update your profile with your latest experience and preferences. You can edit your profile privacy settings to not appear in public search engines at any time.<p>Our mission is to build an open, valuable, and skills-based credential for all engineers. We believe that allowing Triplebyte engineers to publicly share their profiles and skills-based credentials will accelerate this mission.<p>Thanks,<p>Ammon
+Co-founder &amp; CEO, Triplebyte",
+            "story_title": null,
+            "story_url": null,
+            "title": "Tell HN: Interviewed with Triplebyte? Your profile is about to become public",
+            "url": null,
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23279160"
+        key="23279160"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "d99kris",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Netflix stops charging customers who never watch",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://www.bbc.com/news/technology-52777365",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_d99kris",
+              "story_23279160",
+              "front_page",
+            ],
+            "author": "d99kris",
+            "comment_text": null,
+            "created_at": "2020-05-23T02:01:22.000Z",
+            "created_at_i": 1590199282,
+            "num_comments": 412,
+            "objectID": "23279160",
+            "parent_id": null,
+            "points": 572,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Netflix stops charging customers who never watch",
+            "url": "https://www.bbc.com/news/technology-52777365",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23269661"
+        key="23269661"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "samizdis",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Gitlab phished its own work-from-home staff, and 1 in 5 fell for it",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://www.theregister.co.uk/2020/05/21/gitlab_phishing_pentest/",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_samizdis",
+              "story_23269661",
+              "front_page",
+            ],
+            "author": "samizdis",
+            "comment_text": null,
+            "created_at": "2020-05-22T07:55:12.000Z",
+            "created_at_i": 1590134112,
+            "num_comments": 158,
+            "objectID": "23269661",
+            "parent_id": null,
+            "points": 267,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Gitlab phished its own work-from-home staff, and 1 in 5 fell for it",
+            "url": "https://www.theregister.co.uk/2020/05/21/gitlab_phishing_pentest/",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23281634"
+        key="23281634"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "reddotX",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "First Krita Beta for Android and ChromeOS in Play Store",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://krita.org/en/item/first-krita-beta-for-android-and-chromeos-in-play-store/",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_reddotX",
+              "story_23281634",
+              "front_page",
+            ],
+            "author": "reddotX",
+            "comment_text": null,
+            "created_at": "2020-05-23T09:55:52.000Z",
+            "created_at_i": 1590227752,
+            "num_comments": 90,
+            "objectID": "23281634",
+            "parent_id": null,
+            "points": 226,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "First Krita Beta for Android and ChromeOS in Play Store",
+            "url": "https://krita.org/en/item/first-krita-beta-for-android-and-chromeos-in-play-store/",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23281994"
+        key="23281994"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "nikbackm",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "SQLite 3.32.0",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://sqlite.org/releaselog/3_32_0.html",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_nikbackm",
+              "story_23281994",
+              "front_page",
+            ],
+            "author": "nikbackm",
+            "comment_text": null,
+            "created_at": "2020-05-23T11:13:06.000Z",
+            "created_at_i": 1590232386,
+            "num_comments": 86,
+            "objectID": "23281994",
+            "parent_id": null,
+            "points": 221,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "SQLite 3.32.0",
+            "url": "https://sqlite.org/releaselog/3_32_0.html",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23282607"
+        key="23282607"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "fraqed",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Hacker Mods Old Calculator to Access the Internet, Casio Files DMCA Complaint",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://torrentfreak.com/hacker-mods-old-calculator-to-access-the-internet-casio-files-dmca-complaint-200523/",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_fraqed",
+              "story_23282607",
+              "front_page",
+            ],
+            "author": "fraqed",
+            "comment_text": null,
+            "created_at": "2020-05-23T13:07:28.000Z",
+            "created_at_i": 1590239248,
+            "num_comments": 44,
+            "objectID": "23282607",
+            "parent_id": null,
+            "points": 176,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Hacker Mods Old Calculator to Access the Internet, Casio Files DMCA Complaint",
+            "url": "https://torrentfreak.com/hacker-mods-old-calculator-to-access-the-internet-casio-files-dmca-complaint-200523/",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23281564"
+        key="23281564"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "robenkleene",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Catalina is checking notarization of unsigned executables",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://lapcatsoftware.com/articles/catalina-executables.html",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_robenkleene",
+              "story_23281564",
+              "front_page",
+            ],
+            "author": "robenkleene",
+            "comment_text": null,
+            "created_at": "2020-05-23T09:42:24.000Z",
+            "created_at_i": 1590226944,
+            "num_comments": 39,
+            "objectID": "23281564",
+            "parent_id": null,
+            "points": 154,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Catalina is checking notarization of unsigned executables",
+            "url": "https://lapcatsoftware.com/articles/catalina-executables.html",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23280378"
+        key="23280378"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Xplor",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Herd of Fuzzy Green 'Glacier Mice' Baffles Scientists",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://www.npr.org/2020/05/22/858800112/herd-like-movement-of-fuzzy-green-glacier-mice-baffles-scientists",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_Xplor",
+              "story_23280378",
+              "front_page",
+            ],
+            "author": "Xplor",
+            "comment_text": null,
+            "created_at": "2020-05-23T06:09:54.000Z",
+            "created_at_i": 1590214194,
+            "num_comments": 37,
+            "objectID": "23280378",
+            "parent_id": null,
+            "points": 150,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Herd of Fuzzy Green 'Glacier Mice' Baffles Scientists",
+            "url": "https://www.npr.org/2020/05/22/858800112/herd-like-movement-of-fuzzy-green-glacier-mice-baffles-scientists",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23279731"
+        key="23279731"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "donmcc",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Common Rust Lifetime Misconceptions",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_donmcc",
+              "story_23279731",
+              "front_page",
+            ],
+            "author": "donmcc",
+            "comment_text": null,
+            "created_at": "2020-05-23T03:48:50.000Z",
+            "created_at_i": 1590205730,
+            "num_comments": 30,
+            "objectID": "23279731",
+            "parent_id": null,
+            "points": 141,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Common Rust Lifetime Misconceptions",
+            "url": "https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23271298"
+        key="23271298"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "rgommezz",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Show HN: React Native scrollable bottom sheet native animations gestures 60FPS",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://github.com/rgommezz/react-native-scroll-bottom-sheet",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_rgommezz",
+              "story_23271298",
+              "show_hn",
+              "front_page",
+            ],
+            "author": "rgommezz",
+            "comment_text": null,
+            "created_at": "2020-05-22T12:19:52.000Z",
+            "created_at_i": 1590149992,
+            "num_comments": 53,
+            "objectID": "23271298",
+            "parent_id": null,
+            "points": 134,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Show HN: React Native scrollable bottom sheet native animations gestures 60FPS",
+            "url": "https://github.com/rgommezz/react-native-scroll-bottom-sheet",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23282207"
+        key="23282207"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "doerig",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Show HN: LaTeX.css – Make your website look like a LaTeX document",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://latex.now.sh",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_doerig",
+              "story_23282207",
+              "show_hn",
+              "front_page",
+            ],
+            "author": "doerig",
+            "comment_text": null,
+            "created_at": "2020-05-23T11:56:19.000Z",
+            "created_at_i": 1590234979,
+            "num_comments": 43,
+            "objectID": "23282207",
+            "parent_id": null,
+            "points": 127,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Show HN: LaTeX.css – Make your website look like a LaTeX document",
+            "url": "https://latex.now.sh",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23283880"
+        key="23283880"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "u2zv1wx",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Show HN: A dependently-typed programming language with static memory management",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://github.com/u2zv1wx/neut",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_u2zv1wx",
+              "story_23283880",
+              "show_hn",
+              "front_page",
+            ],
+            "author": "u2zv1wx",
+            "comment_text": null,
+            "created_at": "2020-05-23T15:48:11.000Z",
+            "created_at_i": 1590248891,
+            "num_comments": 10,
+            "objectID": "23283880",
+            "parent_id": null,
+            "points": 127,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Show HN: A dependently-typed programming language with static memory management",
+            "url": "https://github.com/u2zv1wx/neut",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23281542"
+        key="23281542"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "ingve",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "The Ten Commandments for C Programmers (1990)",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://www.lysator.liu.se/c/ten-commandments.html",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_ingve",
+              "story_23281542",
+              "front_page",
+            ],
+            "author": "ingve",
+            "comment_text": null,
+            "created_at": "2020-05-23T09:38:03.000Z",
+            "created_at_i": 1590226683,
+            "num_comments": 47,
+            "objectID": "23281542",
+            "parent_id": null,
+            "points": 117,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "The Ten Commandments for C Programmers (1990)",
+            "url": "https://www.lysator.liu.se/c/ten-commandments.html",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23274668"
+        key="23274668"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "prostoalex",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "What a typical serverless architecture looks like in AWS",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_prostoalex",
+              "story_23274668",
+              "front_page",
+            ],
+            "author": "prostoalex",
+            "comment_text": null,
+            "created_at": "2020-05-22T17:30:42.000Z",
+            "created_at_i": 1590168642,
+            "num_comments": 114,
+            "objectID": "23274668",
+            "parent_id": null,
+            "points": 109,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "What a typical serverless architecture looks like in AWS",
+            "url": "https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23282784"
+        key="23282784"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "secure",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Stapelberg uses this: my 2020 desk setup",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://michael.stapelberg.ch/posts/2020-05-23-desk-setup/",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_secure",
+              "story_23282784",
+              "front_page",
+            ],
+            "author": "secure",
+            "comment_text": null,
+            "created_at": "2020-05-23T13:32:54.000Z",
+            "created_at_i": 1590240774,
+            "num_comments": 92,
+            "objectID": "23282784",
+            "parent_id": null,
+            "points": 103,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Stapelberg uses this: my 2020 desk setup",
+            "url": "https://michael.stapelberg.ch/posts/2020-05-23-desk-setup/",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23282278"
+        key="23282278"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "bluewalt",
+              },
+              "story_text": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "I'll quit my CTO position in a few months to become a Freelancer.
+I know personal branding is an important part of the job to get customers.<p>In short: what do you do for that?<p>* Where do you ensure to be visible? LinkedIn, personal website, etc?<p>* Do you create and post content (blog, LinkedIn groups, etc.)?<p>* What content about you do you emphasize to find leads?<p>* Do you use your own name, or a company name?<p>* Did you chose to brand yourself a generalist Freelancer (&quot;I'm a developper working with X and Y languages&quot;) or a specialist one (&quot;I can be a CTO as a service building your MVP for your startup and help recruiting and train your team&quot;)<p>Thanks for sharing your tips and experience.",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Ask HN: How do you brand yourself as a freelancer?",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_bluewalt",
+              "story_23282278",
+              "ask_hn",
+              "front_page",
+            ],
+            "author": "bluewalt",
+            "comment_text": null,
+            "created_at": "2020-05-23T12:12:13.000Z",
+            "created_at_i": 1590235933,
+            "num_comments": 40,
+            "objectID": "23282278",
+            "parent_id": null,
+            "points": 95,
+            "story_id": null,
+            "story_text": "I&#x27;ll quit my CTO position in a few months to become a Freelancer.
+I know personal branding is an important part of the job to get customers.<p>In short: what do you do for that?<p>* Where do you ensure to be visible? LinkedIn, personal website, etc?<p>* Do you create and post content (blog, LinkedIn groups, etc.)?<p>* What content about you do you emphasize to find leads?<p>* Do you use your own name, or a company name?<p>* Did you chose to brand yourself a generalist Freelancer (&quot;I&#x27;m a developper working with X and Y languages&quot;) or a specialist one (&quot;I can be a CTO as a service building your MVP for your startup and help recruiting and train your team&quot;)<p>Thanks for sharing your tips and experience.",
+            "story_title": null,
+            "story_url": null,
+            "title": "Ask HN: How do you brand yourself as a freelancer?",
+            "url": null,
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23269697"
+        key="23269697"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "lipeltgm",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Python Generated Sequence Diagrams",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://dragonquest64.blogspot.com/2020/05/python-generated-sequence-diagrams.html",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_lipeltgm",
+              "story_23269697",
+              "front_page",
+            ],
+            "author": "lipeltgm",
+            "comment_text": null,
+            "created_at": "2020-05-22T08:02:14.000Z",
+            "created_at_i": 1590134534,
+            "num_comments": 17,
+            "objectID": "23269697",
+            "parent_id": null,
+            "points": 89,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Python Generated Sequence Diagrams",
+            "url": "https://dragonquest64.blogspot.com/2020/05/python-generated-sequence-diagrams.html",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23282209"
+        key="23282209"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "martonlanga",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Researchers have achieved an internet speed of 44.2 terabits per second",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "https://www.independent.co.uk/life-style/gadgets-and-tech/news/internet-speed-world-record-fastest-download-a9527236.html",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_martonlanga",
+              "story_23282209",
+              "front_page",
+            ],
+            "author": "martonlanga",
+            "comment_text": null,
+            "created_at": "2020-05-23T11:56:26.000Z",
+            "created_at_i": 1590234986,
+            "num_comments": 51,
+            "objectID": "23282209",
+            "parent_id": null,
+            "points": 87,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Researchers have achieved an internet speed of 44.2 terabits per second",
+            "url": "https://www.independent.co.uk/life-style/gadgets-and-tech/news/internet-speed-world-record-fastest-download-a9527236.html",
+          }
+        }
+      />
+      <NewsRow
+        addVote={[Function]}
+        hideRow={[Function]}
+        id="23270334"
+        key="23270334"
+        row={
+          Object {
+            "_highlightResult": Object {
+              "author": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "raleighm",
+              },
+              "title": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "Science Fiction Timeline of Inventions",
+              },
+              "url": Object {
+                "matchLevel": "none",
+                "matchedWords": Array [],
+                "value": "http://www.technovelgy.com/ct/ctnlistPubDate.asp",
+              },
+            },
+            "_tags": Array [
+              "story",
+              "author_raleighm",
+              "story_23270334",
+              "front_page",
+            ],
+            "author": "raleighm",
+            "comment_text": null,
+            "created_at": "2020-05-22T09:56:40.000Z",
+            "created_at_i": 1590141400,
+            "num_comments": 5,
+            "objectID": "23270334",
+            "parent_id": null,
+            "points": 82,
+            "story_id": null,
+            "story_text": null,
+            "story_title": null,
+            "story_url": null,
+            "title": "Science Fiction Timeline of Inventions",
+            "url": "http://www.technovelgy.com/ct/ctnlistPubDate.asp",
+          }
+        }
+      />
+    </tbody>
+  </table>
+  <Paginator
+    nextPage={[Function]}
+    pageInfo={
+      Object {
+        "current": 0,
+        "total": 2,
+      }
+    }
+    previousPage={[Function]}
+  />
+  <Chart
+    data={Array []}
+  />
+</Fragment>
+`;
+
+exports[`Front Page Component should render container without errors 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

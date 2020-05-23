@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Component should render with default properties 1`] = `
+<p
+  className="regular-text"
+/>
+`;
+
+exports[`Text Component should render with variants  1`] = `
+<p
+  className="sub-text"
+>
+   Test
+</p>
+`;

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News Row Component should render row without errors 1`] = `
+<tr>
+  <td>
+    <Text
+      variant="regular"
+    >
+      1
+    </Text>
+  </td>
+  <td>
+    <Text
+      variant="regular"
+    >
+      123
+    </Text>
+  </td>
+  <td>
+    <Text
+      clickable={true}
+      onClick={[Function]}
+      variant="regular"
+    >
+      ⇧
+    </Text>
+  </td>
+  <td
+    className="news-details"
+  >
+    <Text
+      inline={true}
+      variant="regular"
+    >
+      test title
+    </Text>
+    <Text
+      clickable={true}
+      inline={true}
+      onClick={[Function]}
+      variant="sub"
+    >
+      (random.com)
+    </Text>
+    <Text
+      inline={true}
+      variant="sub"
+    >
+      by
+    </Text>
+    <Text
+      inline={true}
+      variant="sub-text-dark"
+    >
+      test author
+    </Text>
+    <Text
+      inline={true}
+      variant="sub"
+    >
+      9 hours ago
+    </Text>
+    <Text
+      clickable={true}
+      inline={true}
+      onClick={[Function]}
+      variant="sub-text-dark"
+    >
+      hide
+    </Text>
+  </td>
+</tr>
+`;
