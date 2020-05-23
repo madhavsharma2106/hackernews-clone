@@ -26,15 +26,19 @@ function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
   };
 
   const hideRow = (id) => {
-    const update = (tableInfo[id] = { hidden: true });
-    setTableInfo({ ...tableInfo, ...update });
+    setTableInfo({
+      ...tableInfo,
+      ...{ [id]: { ...tableInfo[id], hidden: true } },
+    });
   };
 
   const addVote = (id) => {
-    const update = tableInfo[id]
-      ? (tableInfo[id] = { votes: tableInfo[id].votes + 1 })
-      : (tableInfo[id] = { votes: 1 });
-    setTableInfo({ ...tableInfo, ...update });
+    let addTo = 0;
+    if (tableInfo[id]) if (tableInfo[id].votes) addTo = tableInfo[id].votes;
+    setTableInfo({
+      ...tableInfo,
+      ...{ [id]: { ...tableInfo[id], votes: addTo + 1 } },
+    });
   };
 
   const renderTableBody = () => {
