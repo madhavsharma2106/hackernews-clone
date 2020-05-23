@@ -7,7 +7,6 @@ const row = {
   url: "http://random.com",
   title: "test title",
   author: "test author",
-  created_at: "2020-05-23T08:00:07.000Z",
 };
 
 describe("News Row Component", () => {
