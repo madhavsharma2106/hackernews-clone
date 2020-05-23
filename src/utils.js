@@ -41,3 +41,11 @@ export const retrieveFromLocalStorage = (name) => {
   const item = window.localStorage.getItem(name);
   return item ? JSON.parse(item) : undefined;
 };
+
+export function includeVariants(variantObject) {
+  let variantArray = [];
+  for (const property in variantObject) {
+    variantArray.push(variantObject[property]);
+  }
+  return variantArray;
+}
