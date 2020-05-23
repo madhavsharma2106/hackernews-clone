@@ -1,3 +1,5 @@
+[![madhavsharma2106](https://circleci.com/gh/madhavsharma2106/hackernews-clone.svg?style=svg)](https://app.circleci.com/pipelines/github/madhavsharma2106/hackernews-clone)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
