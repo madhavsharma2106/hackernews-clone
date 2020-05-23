@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
 import Text, { TextVariant } from "../../atoms/Text/Text";
-
 import "./FrontPage.scss";
 import Paginator from "../../molecule/Paginator/Paginator";
 import NewsRow from "../../molecule/NewsRow/NewsRow";
 import Chart from "../../organism/Chart/Chart";
+import {
+  persistToLocalStorage,
+  retrieveFromLocalStorage,
+} from "../../../utils";
 
 function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
-  const [tableInfo, setTableInfo] = useState({});
+  const [tableInfo, setTableInfo] = useState(
+    retrieveFromLocalStorage("tableInfo") ?? {}
+  );
   useEffect(() => {
-    window.localStorage.setItem("tableInfo", tableInfo);
-    console.log(tableInfo);
+    persistToLocalStorage("tableInfo", tableInfo);
   }, [tableInfo]);
 
   const prepDataForChart = (tableInfo) => {
@@ -27,17 +31,13 @@ function FrontPageComponent({ tableData, nextPage, previousPage, pageInfo }) {
   };
 
   const addVote = (id) => {
-    if (tableInfo[id]) {
-      const update = (tableInfo[id] = { votes: tableInfo[id].votes + 1 });
-      setTableInfo({ ...tableInfo, ...update });
-    } else {
-      const update = (tableInfo[id] = { votes: 1 });
-      setTableInfo({ ...tableInfo, ...update });
-    }
+    const update = tableInfo[id]
+      ? (tableInfo[id] = { votes: tableInfo[id].votes + 1 })
+      : (tableInfo[id] = { votes: 1 });
+    setTableInfo({ ...tableInfo, ...update });
   };
 
   const renderTableBody = () => {
-    console.log(tableData);
     return tableData?.map((row) => {
       const id = row.objectID;
 

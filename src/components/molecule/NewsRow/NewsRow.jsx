@@ -42,7 +42,7 @@ function NewsRow({ id, votes, row, addVote, hideRow }) {
           {row.author}
         </Text>
         <Text variant={TextVariant.subText} inline>
-          {`${calculateTimeLapsed(row.created_at)} hours ago`}
+          {`${calculateTimeLapsed(row.created_at)} ago`}
         </Text>
         <Text
           variant={TextVariant.subTextDark}
