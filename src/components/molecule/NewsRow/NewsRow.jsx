@@ -15,6 +15,7 @@ function NewsRow({ id, votes, row, addVote, hideRow }) {
       </td>
       <td>
         <Text
+          aria-label="Upvote"
           variant={TextVariant.regular}
           clickable
           onClick={() => addVote(id)}
@@ -27,6 +28,7 @@ function NewsRow({ id, votes, row, addVote, hideRow }) {
           {row.title}
         </Text>
         <Text
+          aria-label="Link to article"
           variant={TextVariant.subText}
           inline
           clickable
