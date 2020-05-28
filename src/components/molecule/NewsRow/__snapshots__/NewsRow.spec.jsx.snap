@@ -18,6 +18,7 @@ exports[`News Row Component should render row without errors 1`] = `
   </td>
   <td>
     <Text
+      aria-label="Upvote"
       clickable={true}
       onClick={[Function]}
       variant="regular"
@@ -35,6 +36,7 @@ exports[`News Row Component should render row without errors 1`] = `
       test title
     </Text>
     <Text
+      aria-label="Link to article"
       clickable={true}
       inline={true}
       onClick={[Function]}
